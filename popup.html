@@ -1,0 +1,22 @@
+<!doctype html>
+<head>
+        <link href="popup.css" rel="stylesheet" />
+        <script src="popup.js" type="text/javascript"></script>
+</head>
+<body>
+        <div class="container">
+                <a href="https://github.com/tauh33dkhan/XSStrike-extension" target="_blank" rel="noreferrer noopener">
+                        <img class ="logo" src="/icons/logo-128.png">
+                </a><br/><br/<br/><br/> 	 	 	
+                <p class="description">Crawl this website for discovering cross-site scripting vulnerabilities!</p>
+                <input type="button" id="crawl" class="button xsstrike-crawl" title="Crawl this website." value="Crawl"/>
+                <p class="description">or <br/>Click on the following button to scan the parameters of this URL only.</p>
+		<input type="button" id="scan" class="button xsstrike-scan" title="Scan this URL." value="Scan"/>
+		<p class="description"><input type="checkbox" id="skipDom" name="skipDom" unchecked> Skip DOM Scannig</p>
+                <p class="description">Add Custom Request Header</p>
+                <div><input type="text"  id="customHeader" class="header" placeholder="Authorization: Bearer eyjadf"><input type="button" id="saveHeader" class="button saveHeader" value="+"">
+                <p class="description" id="status"></div>
+        </div>
+</body>
+</html>
+

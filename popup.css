@@ -1,0 +1,104 @@
+body {
+  font-family: Helvetica, Ubuntu, Arial, sans-serif;
+  width: 300px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 1em;
+}
+
+h1{
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+p {
+  font-size: 15px;
+}
+
+.description {
+  opacity: 0.6;
+}
+
+.header{
+    width: 80%;
+    height: 33px;
+    font-size: 15px;
+    text-align: left;
+    border-width: 2px;
+    padding-left: 6px;
+}
+.button.saveHeader{
+  border-radius: 7px;
+  width: 20%;
+  height: 35px;
+  border-width: 2px;
+  background: #ff4a4a;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+
+.button.xsstrike-crawl{
+  border-radius: 7px;
+  width: 100%;
+  padding: 1em 2em;
+  background: #ff4a4a;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+
+.button.xsstrike-scan{
+  border-radius: 7px;
+  width: 100%;
+  padding: 1em 2em;
+  background: #2e7fa6;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+.button:hover {
+  box-shadow: none;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+}
+
+.issue {
+  text-align: center;
+  display: block;
+  margin: 20px auto 0 auto;
+}
+
+.title{
+  color: #ff4a4a;
+}
+
+.title-gray{  
+  color: DarkSlateGray; 
+}
+

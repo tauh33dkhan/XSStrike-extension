@@ -1,0 +1,86 @@
+body{
+	height: 300;
+	weidht: 320;
+	background-color: SmokeWhite;
+}
+h1{
+	font-size: 35;
+        color: #ff4a4a;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        margin: 0 auto;
+}
+h2{
+        color: Red;
+        font-family: 'Lato', sans-serif;
+        margin: 0 auto;
+	color: DarkSlateGray;
+}
+h3{
+        color: DarkSlateGray;
+        font-family: 'Lato', sans-serif;
+        margin: 0 auto;
+}
+h4{
+        color: DarkSlateGray;
+        font-family: 'Lato', sans-serif;
+        margin: 0 auto;
+}
+
+.greyText{
+        color: DarkSlateGray;
+}
+.tagline{
+        font-size: 18px;
+        color: DarkSlateGray;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+}
+.purple{
+        color: Purple;
+        font-family: 'Lato', sans-serif;
+        margin: 0 auto;
+}
+.GreenDisplay{
+	color: SpringGreen;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        margin: 0 auto;
+}
+
+.red{
+	color: Red;
+        font-family: 'Lato', sans-serif;
+        margin: 0 auto;
+}
+
+.yellow{
+        color: Yellow;
+        font-family: 'Lato', sans-serif;
+        margin: 0 auto;
+}
+
+.RedDisplay{
+	color: Red;
+        font-family: 'Lato', sans-serif;
+        margin: 0 auto;
+}
+
+.purple{
+        color: Purple;
+        font-family: 'Lato', sans-serif;
+        margin: 0 auto;
+}
+
+.contact{
+	text-align: right;
+        font-family: 'Lato', sans-serif;
+        margin: 0 auto;
+        color: SlateGray;
+}
+.footer{
+	background-color: DarkSlateGray;
+}
+.blue{
+     color: blue;
+}

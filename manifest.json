@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "XSStrike",
+    "description": "XSS finding addon for firefox",
+    "version": "1.2",
+    "icons": {
+        "64":"icons/logo-64.png"
+    },
+    "background":{
+        "scripts": ["bg.js"]
+    },
+    "browser_action":{
+        "default_icon": "icons/logo-64.png",
+        "default_title": "XSStrike",
+        "default_popup": "popup.html"
+    },
+    "content_scripts":[
+        {
+            "matches": ["*://*/*"],
+            "js": ["cs.js"]
+        }
+    ],
+    "permissions": ["notifications", "*://*/*", "tabs", "storage"]
+}
